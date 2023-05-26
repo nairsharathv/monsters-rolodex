@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React from 'react'; // the core react engine
+import ReactDOM from 'react-dom/client'; // react specific to web development
+import './index.css'; // style file of index.js
+import App from './App'; // the root component of react
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root')); // an html element with id root is used as App
 root.render(
   <React.StrictMode>
     <App />
